@@ -57,7 +57,6 @@ public class HomeFragment extends Fragment implements Last_cate_Interface {
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
     CardView cardView_main_cat;
-
     private SliderView sliderView;
     private SliderAdapterExample sliderAdapter;
     private ArrayList<Integer> arrayList_banner= new ArrayList<Integer>();

@@ -34,7 +34,7 @@ import com.google.android.material.navigation.NavigationView;
 public class DashBoard extends AppCompatActivity {
 
     BottomNavigationView bottomNavigation;
-    CardView cardView_profile,cardView_service,cardView_business_list;
+   // CardView cardView_profile,cardView_service,cardView_business_list;
     public DrawerLayout drawerLayout;
 
     @Override
@@ -43,10 +43,10 @@ public class DashBoard extends AppCompatActivity {
         setContentView(R.layout.activity_dash_board);
 
          bottomNavigation=findViewById(R.id.bottomNavigation);
-        cardView_profile=findViewById(R.id.cardView_profile);
+       /* cardView_profile=findViewById(R.id.cardView_profile);
         cardView_service=findViewById(R.id.cardView_service);
         cardView_business_list=findViewById(R.id.cardView_business_list);
-
+*/
 
         Toolbar toolbar = findViewById(R.id.toolbar);
        setSupportActionBar(toolbar);
@@ -85,10 +85,9 @@ public class DashBoard extends AppCompatActivity {
                 }
                 return false;
             }
-
         });
 
-        cardView_profile.setOnClickListener(new View.OnClickListener() {
+       /* cardView_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DashBoard.this, LoginActivity.class));
@@ -110,7 +109,7 @@ public class DashBoard extends AppCompatActivity {
                 startActivity(new Intent(DashBoard.this, FreeListBusiness.class));
 
             }
-        });
+        });*/
 
         openFragment(new HomeFragment());
 
@@ -137,7 +136,6 @@ public class DashBoard extends AppCompatActivity {
         });
 
     }
-
 
     public void openFragment(Fragment fragment) {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

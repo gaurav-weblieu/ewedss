@@ -58,7 +58,7 @@
 
                     </LinearLayout>
 
-                    <LinearLayout
+                   <!-- <LinearLayout
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content">
@@ -77,8 +77,8 @@
                                 />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
-
-                    <LinearLayout
+-->
+                    <!--<LinearLayout
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content">
@@ -96,9 +96,9 @@
                                 android:src="@drawable/free_list_business"
                                 />
                         </androidx.cardview.widget.CardView>
-                    </LinearLayout>
+                    </LinearLayout>-->
 
-                    <LinearLayout
+                   <!-- <LinearLayout
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content">
@@ -117,7 +117,7 @@
                                 />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
-
+-->
 
                 </LinearLayout>
 
