@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eweds">
         <activity
+            android:name=".Activity.PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.TermAndConditions"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AboutUs"
+            android:exported="false" />
+        <activity
             android:name=".Activity.BlogDetails"
             android:exported="true" />
         <activity

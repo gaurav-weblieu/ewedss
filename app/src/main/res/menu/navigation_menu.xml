@@ -3,22 +3,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="HardcodedText">
 
-    <item
-        android:id="@+id/vendor_login"
-        android:title="Vandor Login"
-        android:icon="@drawable/service_provider"
-        />
+    <group android:checkableBehavior="single">
 
-    <item
-        android:id="@+id/free_business"
-        android:title="Free Business List"
-        android:icon="@drawable/free_list_business"
-        />
 
     <item
         android:id="@+id/user_login"
         android:title="User Login"
         android:icon="@drawable/ic_round_person_24"
         />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us"
+        android:icon="@drawable/ic_round_info_24"
+        />
+
+    <item
+        android:title="Career's"
+        android:icon="@drawable/carrer"
+        />
+
+    <item
+        android:title="Contact Us"
+        android:icon="@drawable/contact_us"
+        />
+
+    <item
+        android:title="Cancellation Policy"
+        android:icon="@drawable/cancell"
+        />
+
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/prvacy_policy"
+        />
+
+    <item
+        android:id="@+id/termCon"
+        android:title="Term and Conditions"
+        android:icon="@drawable/term_cond"
+        />
+
+    </group>
+
+
 
 </menu>

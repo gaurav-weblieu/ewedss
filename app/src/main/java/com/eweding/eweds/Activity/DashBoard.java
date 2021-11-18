@@ -117,19 +117,27 @@ public class DashBoard extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.vendor_login:
-                        startActivity(new Intent(DashBoard.this, ServiceProvider.class));
-                        break;
-
-                    case R.id.free_business:
-                        startActivity(new Intent(DashBoard.this, FreeListBusiness.class));
-
-                        break;
 
                     case R.id.user_login:
                         startActivity(new Intent(DashBoard.this, LoginActivity.class));
 
                         break;
+
+                    case R.id.about_us:
+                        startActivity(new Intent(DashBoard.this, AboutUs.class));
+
+                        break;
+
+                    case R.id.termCon:
+                        startActivity(new Intent(DashBoard.this, TermAndConditions.class));
+
+                        break;
+
+                    case R.id.privacy:
+                        startActivity(new Intent(DashBoard.this, PrivacyPolicy.class));
+
+                        break;
+
                 }
                 return true;
             }
