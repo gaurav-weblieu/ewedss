@@ -120,22 +120,18 @@ public class DashBoard extends AppCompatActivity {
 
                     case R.id.user_login:
                         startActivity(new Intent(DashBoard.this, LoginActivity.class));
-
                         break;
 
                     case R.id.about_us:
                         startActivity(new Intent(DashBoard.this, AboutUs.class));
-
                         break;
 
                     case R.id.termCon:
                         startActivity(new Intent(DashBoard.this, TermAndConditions.class));
-
                         break;
 
                     case R.id.privacy:
                         startActivity(new Intent(DashBoard.this, PrivacyPolicy.class));
-
                         break;
 
                 }
