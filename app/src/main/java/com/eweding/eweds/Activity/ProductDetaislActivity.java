@@ -24,7 +24,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 public class ProductDetaislActivity extends AppCompatActivity {
 
     RecyclerView recycleView_our_tips,recycleView_review,recycleView_similar_vender;
-    private LinearLayout linear_layout;
+    //private LinearLayout linear_layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class ProductDetaislActivity extends AppCompatActivity {
         recycleView_our_tips=findViewById(R.id.recycleView_our_tips);
         recycleView_review=findViewById(R.id.recycleView_review);
         recycleView_similar_vender=findViewById(R.id.recycleView_similar_vender);
-        linear_layout=findViewById(R.id.line1);
+        //linear_layout=findViewById(R.id.line1);
 
 
         OurTipsAdapter ourTipsAdapter = new OurTipsAdapter(this);
@@ -80,7 +80,7 @@ public class ProductDetaislActivity extends AppCompatActivity {
     public void finish(View view) {
         Animation slide_down = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.slide_down);
-        linear_layout.startAnimation(slide_down);
+        //linear_layout.startAnimation(slide_down);
         finish();
     }
 

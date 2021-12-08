@@ -51,4 +51,9 @@
         <item name="color">@android:color/holo_red_light</item>
     </style>
 
+    <style name="WelcomeErrorAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
 </resources>

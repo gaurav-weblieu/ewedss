@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Eweds">
         <activity
+            android:name=".Activity.NewActivityTest"
+            android:exported="false" />
+        <activity
             android:name=".Activity.PrivacyPolicy"
             android:exported="false" />
         <activity

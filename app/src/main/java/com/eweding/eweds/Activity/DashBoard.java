@@ -42,12 +42,11 @@ public class DashBoard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
 
-         bottomNavigation=findViewById(R.id.bottomNavigation);
+        bottomNavigation=findViewById(R.id.bottomNavigation);
        /* cardView_profile=findViewById(R.id.cardView_profile);
         cardView_service=findViewById(R.id.cardView_service);
         cardView_business_list=findViewById(R.id.cardView_business_list);
 */
-
         Toolbar toolbar = findViewById(R.id.toolbar);
        setSupportActionBar(toolbar);
 
@@ -87,7 +86,7 @@ public class DashBoard extends AppCompatActivity {
             }
         });
 
-       /* cardView_profile.setOnClickListener(new View.OnClickListener() {
+        /* cardView_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DashBoard.this, LoginActivity.class));
@@ -111,7 +110,7 @@ public class DashBoard extends AppCompatActivity {
             }
         });*/
 
-        openFragment(new HomeFragment());
+        openFragment(new HomeFragment( ));
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -138,7 +137,6 @@ public class DashBoard extends AppCompatActivity {
                 return true;
             }
         });
-
     }
 
     public void openFragment(Fragment fragment) {

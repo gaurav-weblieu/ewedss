@@ -10,4 +10,9 @@
     <color name="light_black">#212121</color>
     <color name="very_light_grey">#E0E0E0</color>
     <color name="very_very_light_grey">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#337ab7</color>
+    <color name="holo_red_light">#ffff4444</color>
+
+
 </resources>
